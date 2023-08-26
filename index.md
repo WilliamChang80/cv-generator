@@ -1,112 +1,71 @@
 ---
 layout: cv
-title: David Layardi
+title: William Chang
 ---
-# David Layardi - Example
-Cloud Infrastructure, Automation, DevOps Engineer.
+
+# William Chang - Software Engineer
+
+Software Engineer.
 
 <div id="webaddress">
 <text>Jakarta, Indonesia</text>
-| <a href="mailto:david@layardi.com">david@layardi.com</a>
-| <a href="https://github.com/doctor500">github.com/doctor500</a>
-| <a href="https://www.linkedin.com/in/david-lay/">linkedin.com/in/david-lay</a>
-| <a href="https://medium.com/@davidlayardi">medium.com/@davidlayardi</a>
+| <a href="mailto:williamchang801@gmail.com">williamchang801@gmail.com</a>
+| <a href="https://github.com/WilliamChang80">github.com/WilliamChang80</a>
+| <a href="https://www.linkedin.com/in/william-chang-103418178/">linkedin.com/in/william-chang-103418178/</a>
 </div>
-
-
-## Profile Summary
-
-Indonesian, speaks native Bahasa & intermediate English. Passionate as an application developer since 2011 in various web application development with soft skills that I built up from 5-year organizational experience in analytical thinking, problem-solving, and collaboration.
-
-Since 2018, I've successfully delivered automation-based innovation to solve business problems for more than 10 professional projects. Now I'm focused on infrastructure & automation by implementing the DevOps culture to improve software engineer productivity. 
 
 ### Technical Skill
 
-AWS, GCP, Linux VM, Windows Server, Debian, CentOS, Docker, Kubernetes, MySQL, PostgreSQL, Git, Python, Java (Groovy), Jenkins, Gitlab CI, GitHub Actions, Helm, Kustomize, Terraform.
+Programming: Java, Kotlin, Go, Spring, React, Javascript, Typescript  
+Technologies: AWS, Docker, Kubernetes, Gitlab CI, PostgreSQL, Kafka, Elasticsearch, Microservice  
+Languages: Indonesia (Native), English (Professional)
 
 ## Professional Experience
 
-`Nov 2021 - Now`
-__DevOps Engineer__, Gojek - GoTo Financial
+`Feb 2022 - Now`
+**Software Engineer**, Gojek - GoTo Financial
 
-Part Commerce Enablement - Developer Experience (CE DevX) Team. We provide cloud infrastructure platform for CE products and engineers at scale.
+Responsible for maintaining **engineering productivity** from cross-functional team and part of GOPAY that deliver solutions to **merchant** in whole Indonesia.
 
-Responsibilities:
-- 1) Plan and execute cloud cost saving activity
-- 2) Lead and organize sharing session for CE DevX
-- 3) Manage Terraform, Hashicorp Vault, and Helm Chart templating
-- 4) Maintain multicloud Kubernetes cluster, Gitlab CI pipeline & runners 
+- 1. Re-architectured POS transaction write and reporting that increase **scalability**, **reliability** and read performance by up to **50x** by separating read and write responsibility and indexed search database (**Elasticsearch**).
+- 2. Optimize **cost efficiency** that reduced overall infrastructure costs by **20%** by migrating legacy **AWS EB** to **Kubernetes**.
+- 3. Re-architectured **event-driven architecture** from legacy inventory reporting migration with **event sourcing** approach and OLAP database that improve read & write throughput up to **7 times** and reduce database CPU usage by **half**.
+- 4. Actively contributed to the development of an engineering culture within the organization, fostering practices such as **code review**, **pair programming**, and **knowledge sharing**.
 
-Achivements:
-- 1) Reduce AWS infra cost for development up to 50% on an hourly basis
-- 2) End-to-end implementation of Hashicorp Vault with Operator pattern
-- 3) PoC and Implementation for reverse IaC to legacy infrastructure
+`Feb 2021 - Feb 2022`
+**Software Engineer Intern**, Gojek - GoTo Financial
 
-`Mar 2020 - Oct 2021`
-__Release Engineer__, Pegipegi
+Part of order team on POS and cross functional team that responsible for improving merchant dashboard experience.
 
-Part of core functional team. Focus on software engineering concerning compilation, assembly, and delivery of source code into finished products or other software components.
+- 1. Improving codebase structure and improving unit test up to **80 percent**.
+- 2. Re-architected order receipt flow to **event-driven** and reduce data **discrepancy**.
+- 3. Participate in Bundle Package project as **one of the most demanded feature** for **6 months** on **web** and **backend** that involves 7 teams consist of other engineering teams, QA, PM, UI/UX, Business and Operation teams.
+- 4. Participate in engineering **culture development** by starting to implement **functional programming** in exisiting codebase and do functional programming dojo with others.
 
-Responsibilities:
-- 1) Research & PoC tools that supporting DevOps culture implementation
-- 2) Manage Jenkins pipeline & runner on multicloud environment
-- 3) Maintain Kubernetes cluster & Atlassian Bitbucket repository
-
-Achivements:
-- 1) PoC & Implementation for Jenkins on top of Kubernetes
-- 2) Refactor Pipeline from Jenkins-file to Jenkins Shared Library
-- 3) Create multicloud support for deployment pipeline
-- 4) PoC Phabricator for monorepo implementation
-
-`Mar 2018 - Feb 2020`
-__Data Center Staff__, Bina Nusantara - IT Division
-
-Collaborate in Data Center & IT Infrastructure group to Help Binus IT Operational Process. 
-
-Responsibilities:
-- 1) Research & PoC tools for creating automation/integration
-- 2) Support data analyst & data center infrastructure team task
-- 3) Provide ETL & data report for PDDikti &/ University reporting
-- 4) Support application & infra troubleshooting in production level
-
-Achivements:
-- 1) Pioneer of QR-based event registration system, [used on national-scale event](https://binus.ac.id/2019/01/sarasehan-dialog-nasional-bersama-menteri-ristekdikti-republik-nasional/)
-- 2) Create tools & scripts to automate data analyst reporting processes
-- 3) Develop WiFi debugging tools to help network-infra team
-- 4) Integrate Windows AD with physical facilities (access door, and WiFi SSO)
-
-<!-- <div style="page-break-after: always;"></div> -->
 ## Activities
-### Medium Articles
-`Aug 2021`
-[**Automate Export From Jenkins API Job List to Google Sheets Using Google Apps Script**](https://medium.com/geekculture/automate-export-from-jenkins-api-job-list-to-google-sheets-using-google-apps-script-2eef44008bdc)
 
-Reach 1100+ Reader (per 2023/01/26) under Geek Culture publication
+### Project
 
-`Jul 2021`
-[**Easy Deploy SonarQube on Kubernetes with YAML configuration**](https://medium.com/codex/easy-deploy-sonarqube-on-kubernetes-with-yaml-configuration-27f5adc8de90)
+[Open API Generator](https://github.com/WilliamChang80/open-api-generator)
 
-Reach 8500+ Reader (per 2023/01/26) under CodeX publication
+- Code generator from swagger spec and publisher to github artifactory
+
+Waltmart
+
+- An e-commerce with microservice architecture for thesis project
+- Build with React, Go, Java, Kafka, Elasticsearch, AWS and Kubernetes
 
 ## Training & Certifications
 
-`Jan 2023`
-[Associate Cloud Engineer](https://www.credential.net/3e62c331-8419-43d6-9d48-849d04182582), *from GCP*
-
-`Sep 2022`
-[Google Cloud Fundamentals: Core Infrastructure](https://www.coursera.org/account/accomplishments/verify/B2V6L4ZSGNUH), *from Coursera*
-
-`Mar 2021`
-[DevOps Engineering on AWS](https://1drv.ms/b/s!AgiuQdtA6DaqkRFlSnO8rKrDO8iQ?e=htxgE9), *from AWS*
-
-
+`September 2020`
+Compfest Indonesia Software Engineering Academy 2020 Best participants
 
 ## Education
 
-`2016 - 2020`
-__Bina Nusantara University, Jakarta__. Bachelor's degree, Information System
+`2018 - 2022`
+**Bina Nusantara University, Jakarta**. Bachelor's degree, Computer Science
 
-Taking Business Intelligence Specialization. Graduated in 7th semester. GPA 3.8 of 4.0
+Taking Software Engineer Specialization. GPA 3.74 of 4.00
 
 <!-- ### Footer
 Last updated: Jan 2023 -->
