@@ -74,7 +74,8 @@ code {
 	font-size: 90%;
 	/*line-height: 1em;*/
 	font-family: Monaco,Menlo,monospace,sans-serif;
-	color: #ccc;
+	color: black;
+	font-weight: bold;
 }
 
 p code {
@@ -168,9 +169,9 @@ a:hover {
 	margin-top: 1em;
 	position: relative;
 	left: 25%;
-	color: #ccc;
+	color: #bc412b;
 	font-family: Monaco,Menlo,monospace,sans-serif;
-	font-size: 90%;
+	font-size: 100%;
 	width: 75%;
 }
 
