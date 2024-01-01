@@ -30,12 +30,12 @@ Software Engineer
 **Software Engineer**  
 Gojek - GoTo Financial  
 
-Responsible for maintaining **engineering productivity** from cross-functional team and part of GOPAY that deliver solutions to **merchant** in whole Indonesia.
+Responsible for maintaining **engineering productivity** from cross-functional team and part of Midtrans that deliver payment gateway solutions to **merchants** in whole Indonesia.
 
 - 1) Re-architectured POS transaction write and reporting that increase **scalability**, **reliability** and read performance by up to **50x** by separating read and write responsibility and indexed search database (**Elasticsearch**).
 - 2) Optimize **cost efficiency** that reduced overall service costs by **60%** by migrating legacy **AWS EB** to **Kubernetes** and reduced deployment time by **20 times**.
 - 3) Improve read & write throughput up to **7 times** and reduce database CPU usage up to **50%** by re-architecturing **event-driven architecture** from legacy inventory reporting migration with **event sourcing** approach and OLAP database.
-- 4) Actively contributed to the development of an engineering culture within the organization, fostering practices such as **code review**, **pair programming**, and **knowledge sharing**.
+- 4) Actively contributed to the development of an engineering culture within the organization, fostering practices such as **code review**, **RFC review**, **pair programming**, and **knowledge sharing**.
 
 <div style="page-break-after: always"></div>
 
